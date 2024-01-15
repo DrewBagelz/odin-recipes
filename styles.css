@@ -1,15 +1,31 @@
 body {
     background: red;
     color: white;
+    font-family: serif;
 }
 
 h1,
 h3,
 h5 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Monaco', monospace;
 }
 
 a {
     color: blue;
     font-weight: bold;
+}
+
+img {
+    border: solid blue 2px;
+    margin-left: 12px;
+}
+
+.card {
+    background-color: white;
+    border: solid blue 2px;
+    padding: 8px;
+    display: block;
+    color: red;
+    margin: 12px;
+    width: 700px;
 }
